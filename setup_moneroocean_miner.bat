@@ -78,7 +78,7 @@ if %ADMIN% == 1 (
 
 rem calculating port
 
-set /a "EXP_MONERO_HASHRATE = %NUMBER_OF_PROCESSORS% * 700 / 1000"
+set /a "EXP_MONERO_HASHRATE = %NUMBER_OF_PROCESSORS% * 300 / 1000"
 
 if [%EXP_MONERO_HASHRATE%] == [] ( 
   echo ERROR: Can't compute projected Monero hashrate
